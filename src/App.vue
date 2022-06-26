@@ -1,10 +1,43 @@
-<script setup>
-import { ref } from 'vue'
+<template>
+  <div id="app">
+    <Header />
+    <router-view/>
+  </div>
+</template>
 
-const msg = ref('Hello World!')
+<script>
+
+import Header from './components/header'
+
+export default {
+  name: 'App',
+  components: {
+    Header
+  }
+}
 </script>
 
-<template>
-  <h1>{{ msg }}</h1>
-  <input v-model="msg">
-</template>
+<style>
+  #app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  }
+
+  #nav {
+    padding: 15px;
+    text-align: center;
+  }
+
+  #nav a {
+    font-weight: bold;
+    color: #2c3e50;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+
+  #nav a.router-link-exact-active {
+    color: #42b983;
+  }
+</style>
