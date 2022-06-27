@@ -24,19 +24,19 @@ export default {
       Todos: [
         {
           uniqueId: 1,
-          title: 'Get foodstuffs from the market',
+          title: 'meeting at 9',
           completed: false,
           id: 1
         },
         {
           uniqueId: 2,
-          title: 'Install call of duty mobile',
+          title: 'review your monthly Budget',
           completed: false,
           id: 2
         },
         {
           uniqueId: 3,
-          title: 'Visit a friend in the next street',
+          title: 'update windows ',
           completed: false,
           id: 3
         }
