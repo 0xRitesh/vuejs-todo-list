@@ -39,6 +39,24 @@ export default {
           title: 'update windows ',
           completed: false,
           id: 3
+        },
+        {
+          uniqueId: 4,
+          title: 'meeting at 9',
+          completed: false,
+          id: 4
+        },
+        {
+          uniqueId: 5,
+          title: 'review your monthly Budget',
+          completed: false,
+          id: 5
+        },
+        {
+          uniqueId: 6,
+          title: 'update windows ',
+          completed: false,
+          id: 6
         }
       ],
     }

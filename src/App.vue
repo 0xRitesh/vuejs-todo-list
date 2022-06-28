@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <Topself />
     <Header />
     <router-view/>
   </div>
@@ -8,12 +9,14 @@
 <script>
 
 import Header from './components/header'
+import Topself from './components/topself.vue'
 
 export default {
   name: 'App',
   components: {
-    Header
-  }
+    Header,
+    Topself
+}
 }
 </script>
 

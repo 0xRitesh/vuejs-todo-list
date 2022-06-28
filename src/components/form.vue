@@ -48,7 +48,7 @@ export default {
   .add-btn {
     flex-grow: 1;
     height: 100%;
-    background-color: #2e7c59;
+    background-color: #1CAA59;
     border-radius: 2px;
     color: #fff;
     border: none;

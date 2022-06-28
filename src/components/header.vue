@@ -20,7 +20,7 @@ export default {
 <style scoped>
   div.logo {
     padding: 2% 5%;
-    background-color: #2e7c59;
+    background-color: #DC4D3D;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -32,7 +32,7 @@ export default {
   }
 
   div#nav {
-    border-bottom: 1px solid #2e7c59;
+    border-bottom: 1px solid #DC4D3D;
     display: flex;
     justify-content: center;
   }
